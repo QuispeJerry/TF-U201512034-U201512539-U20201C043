@@ -2,7 +2,7 @@
 
 ## Introducción 
 
-Este trabajo parcial es dirigido a los alumnos de sexto ciclo de la
+Este trabajo final es dirigido a los alumnos de sexto ciclo de la
 carrera de Ingeniería de Software de carácter teórico-práctico, que
 busca el desarrollo de la competencia general de pensamiento innovador y
 la competencia específica de diseñar sistemas, componentes o procesos
@@ -15,7 +15,7 @@ Colaboratory.
 
 ## Objetivos 
 
-El presente trabajo parcial tiene como principal objetivo representar
+El presente trabajo final tiene como principal objetivo representar
 una ciudad de al menos un millón de habitantes, 1500 cuadras u 800
 calles en un grafo. Un grafo puede ser representado en una matriz de
 adyacencia o lista de adyacencia. Nosotros optamos por representar el
