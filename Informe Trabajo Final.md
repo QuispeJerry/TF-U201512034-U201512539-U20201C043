@@ -1,6 +1,6 @@
-**Informe del Trabajo Final**
+# Informe del Trabajo Final
 
-# Introducción 
+## Introducción 
 
 Este trabajo parcial es dirigido a los alumnos de sexto ciclo de la
 carrera de Ingeniería de Software de carácter teórico-práctico, que
@@ -13,7 +13,7 @@ se usará para conseguir el objetivo trazado es el ya enseñado por el
 docente del curso, el cual tiene por denominación Python en Google
 Colaboratory.
 
-# Objetivos 
+## Objetivos 
 
 El presente trabajo parcial tiene como principal objetivo representar
 una ciudad de al menos un millón de habitantes, 1500 cuadras u 800
@@ -23,7 +23,7 @@ grafo en una lista de adyacencia porque tiende a ser de fácil
 comprensión y, además, en la impresión esta se podrá enumerar sin
 problemas e imprimir de manera correcta.
 
-# Marco conceptual 
+## Marco conceptual 
 
 Antes de poder cumplir o iniciar con la tarea de generar el grafo de una
 ciudad es necesario escoger una ciudad que cumpla con tener al menos una
@@ -47,14 +47,14 @@ afirmar que dos calles se cortarán entre sí y solo si hay una esquina
 entre ellos. Por consecuencia, de esta forma habremos encontrado si una
 calle se conecta o no con otra.
 
-# Imagen estática de la ciudad o porción de ciudad elegida
+## Imagen estática de la ciudad o porción de ciudad elegida
 
 ![Mapa Descripción generada
 automáticamente](./media/image1.jpeg){width="5.905555555555556in"
 height="3.334722222222222in"}\
 Mapa de la ciudad de Barcelona
 
-# Descripción de los datos consignados por calle
+## Descripción de los datos consignados por calle
 
 Cada calle tiene un punto de inicio, punto final, una zona y la
 distancia de dicha calle. El punto de inicio representa el primer punto
@@ -67,7 +67,7 @@ punto final.
 automáticamente](./media/image2.png){width="5.905555555555556in"
 height="2.216666666666667in"}
 
-# Descripción de la información consignada por intersección
+## Descripción de la información consignada por intersección
 
 Un punto de intersección se puede representar por medio de un punto X,
 Y, porque uno representa la latitud y otra la longitud. Además, una
@@ -79,7 +79,7 @@ una esquina cuando dos o más rectas se encuentren.
 automáticamente](./media/image3.jpeg){width="5.905555555555556in"
 height="3.365972222222222in"}
 
-# Explicación de cómo se elaboró el grafo, qué representan las aristas y los vértices
+## Explicación de cómo se elaboró el grafo, qué representan las aristas y los vértices
 
 Para crear un grafo necesitamos una matriz de adyacencia o una lista de
 adyacencia, nosotros optamos por una lista de adyacencia porque esta es
