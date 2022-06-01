@@ -50,8 +50,7 @@ calle se conecta o no con otra.
 ## Imagen estática de la ciudad o porción de ciudad elegida
 
 ![Mapa Descripción generada
-automáticamente](./Images/image1.jpeg){width="5.905555555555556in"
-height="3.334722222222222in"}\
+automáticamente](./Images/image1.jpeg)\
 Mapa de la ciudad de Barcelona
 
 ## Descripción de los datos consignados por calle
@@ -64,8 +63,7 @@ esta es la diferencia en metros con respecto al punto de inicio y el
 punto final.
 
 ![Escala de tiempo Descripción generada
-automáticamente](./Images/image2.png){width="5.905555555555556in"
-height="2.216666666666667in"}
+automáticamente](./Images/image2.png)
 
 ## Descripción de la información consignada por intersección
 
@@ -76,8 +74,7 @@ esa lógica, podemos afirmar que tendremos una intersección de calles o
 una esquina cuando dos o más rectas se encuentren.
 
 ![Mapa Descripción generada
-automáticamente](./Images/image3.jpeg){width="5.905555555555556in"
-height="3.365972222222222in"}
+automáticamente](./Images/image3.jpeg)
 
 ## Explicación de cómo se elaboró el grafo, qué representan las aristas y los vértices
 
@@ -110,9 +107,7 @@ enlace se puede visualizar todo el grafo y lista completa:
 <https://colab.research.google.com/drive/1QRikHQNLmaxyXXz1PckFvhf-7CuiAvih?usp=sharing>
 
 ![Texto Descripción generada
-automáticamente](./Images/image4.png){width="5.905555555555556in"
-height="3.3159722222222223in"}
+automáticamente](./Images/image4.png)
 
 ![Diagrama Descripción generada
-automáticamente](./Images/image5.png){width="5.905555555555556in"
-height="2.459722222222222in"}
+automáticamente](./Images/image5.png)
