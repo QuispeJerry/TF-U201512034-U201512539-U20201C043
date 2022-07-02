@@ -111,3 +111,12 @@ automáticamente](./Images/image4.png)
 
 ![Diagrama Descripción generada
 automáticamente](./Images/image5.png)
+
+## Explicación de la modificación del grafo
+Se modificó el grafo anteriormente explicado, ya que era conveniente para la visualización del mapa. Por ello, usando los datos obtenidos, los nodos del grafo ahora representan las intersecciones de las calles, las aristas representan las calles y los pesos están en función de la distancia entre intersecciones y el factor de tráfico.
+
+## Explicación de los algoritmos utilizados
+Para el desarrollo de la solución se utilizó el algoritmo de Dijkstra para hallar el camino más corto de un punto inicial a un punto final. Además, como se solicitaba mostrar dos rutas alternas, se modificó el algoritmo de Dijkstra para realizar esta tarea. La modificación consistía en bloquear cada arista por la que se recorrió para que al momento de aplicar Dijkstra esta arista no se tome en cuenta. Antes de realizar el bloqueo de una arista, se aplica el algoritmo de BFS para evaluar si bloqueando ese camino aún es posible llegar al destino final. 
+
+## Conclusiones
+Los grafos pueden representar cualquier tipo de información, ya que en el presente trabajo se demostró que un grafo puede representar un sin fin de información. En nuestro caso, se vio que el grafo final guarda información de esquinas o intersecciones de calle: posición de cada esquina (nodo) en coordenadas UTM, intensidad de tráfico entre un nodo y otro e intersecciones existentes entre esquinas. Se demostró la utilidad de los grafos para encontrar rutas cortas haciendo uso del algoritmo de Dijkstra: la primera ruta más corta y otras dos rutas alternativas.
