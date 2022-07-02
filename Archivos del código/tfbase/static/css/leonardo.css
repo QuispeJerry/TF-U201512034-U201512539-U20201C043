@@ -20,4 +20,81 @@ body {
 	width: 1850px;
 }
 
+
+
+.titulo{
+	background-color: rgb(25, 149, 56);
+	color: white;
+	max-height:110% ;
+	padding: 3rem;
+}
+
+h1, .tf{
+	font-size: 4rem;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;	
+}
+.tf{
+	font-size: 2rem;
+	font-weight: 400;
+	margin-top: 1rem;
+}
+
+.contenedor{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: orange;
+}
+
+
+.c1, .c2, .c3{
+	font-size: 3.5rem;
+	font-weight: 700;
+	font-family: sans-serif;
+	padding: 1rem;
+	margin: 1rem;
+	text-align: center;
+	text-transform: capitalize;
+}
+.c1{
+	color:green;
+}
+.c2{
+	color:yellow;
+}
+.c3{
+	color:red;
+}
+
+h2, ol{
+	font-family: sans-serif;
+	color:gray;
+	text-align: center;
+}
+h2{
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	color: white;
+}
+ol{
+	margin-top:1rem;
+	font-size: 2.5rem;
+	font-weight: 400;
+	color:white;
+}
+.margenf{
+	margin-top: 2rem;
+}
+.margeni{
+	margin-bottom: 2rem;
+}
+.contenedor2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 /* vim: set tabstop=2:softtabstop=2:shiftwidth=2:noexpandtab */
